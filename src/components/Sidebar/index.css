@@ -1,0 +1,34 @@
+.bar-containter {
+    width: 8vw;
+    height: 25vh;
+    position: fixed;
+    top: 60%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar-containter a {
+    font-size: 1.2rem; /* 正常字体大小 */
+    text-decoration: none; /* 去掉下划线 */
+    color: var(--text-color, black); /* 设置统一的字体颜色 */
+    margin: 0.5rem 0; /* 链接间的垂直间距 */
+    transition: font-size 0.3s ease, color 0.3s ease; /* 平滑过渡效果 */
+    margin-top: -5%;
+}
+
+.bar-containter a:hover {
+    font-size: 1.5rem; /* 鼠标悬停时字体变大 */
+    color: var(--hover-color, #555); /* 悬停时改变颜色 */
+}
+
+.bar-containter a.active {
+    font-size: 1.6rem; /* 当前页面字体变大 */
+    font-weight: bold; /* 加粗（可选） */
+    color: var(--highlight-color, #333); /* 当前页面颜色高亮 */
+    text-decoration: underline;
+}

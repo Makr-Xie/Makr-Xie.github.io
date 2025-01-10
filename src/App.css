@@ -1,0 +1,17 @@
+:root {
+  --background-color: #f8f5f5;
+  --text-color: #313131;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: serif;
+  overflow-x: hidden;
+  font-size: larger;
+}

@@ -1,0 +1,37 @@
+.contentblock {
+    font-size: clamp(12px, 2vw, 20px);
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vh;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.contentblock:hover {
+    transform: scale(1.1) translateX(5%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.contentblock-role {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.WorkBlock-time {
+    margin-left: auto;
+}

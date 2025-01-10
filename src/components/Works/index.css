@@ -1,0 +1,8 @@
+.work-item {
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 3vh;
+}

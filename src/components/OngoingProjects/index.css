@@ -1,0 +1,77 @@
+.project-block {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 80%;
+    height: 200px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #f9f5f5;
+    box-shadow: #959da52e 0 6px 18px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px; /* Darken and enlarge shadow */
+}
+
+.project-img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center; /* 确保图像居中显示 */
+    align-items: flex-start;
+    backdrop-filter: blur(3px);
+    position: relative;
+}
+
+.project-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ffffff20, #ffffff60 60%, #f8f6f6 95%, #f8f5f5);
+    pointer-events: none; /* 确保伪元素不会阻碍交互 */
+    z-index: 1; /* 确保渐变层位于图片之上，文字之下 */
+}
+
+.project-details {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project-details h {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.project-details span {
+    font-size: 15px;
+    margin-top: -8px;
+}
+
+.project-details p {
+    width: 95%;
+    font-size: 17px;
+}
