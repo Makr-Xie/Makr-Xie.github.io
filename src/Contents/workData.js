@@ -1,8 +1,12 @@
+import datalynn from '../assets/datalynn.png';
+import uiuc from '../assets/UIUC.png';
+import iflytek from '../assets/iflytek.png';
+
 const workData = [
     {
         title: 'DataLynn',
         subtitle: 'Software Development Engineer Intern',
-        image:'src/assets/datalynn.png',
+        image: datalynn,
         role: "Software Development Engineer Intern",
         time: "05/2024 - 08/2024",
         content: `<p>
@@ -19,7 +23,7 @@ const workData = [
     {
         title: 'University of Illinois, Urbana-Champaign',
         subtitle: 'Course Assistant',
-        image:'src/assets/UIUC.png',
+        image: uiuc,
         role: "Course Assistant",
         time: "08/2023 - 12/2023",
         content: `
@@ -36,7 +40,7 @@ const workData = [
     {
         title: 'iFLYTEK',
         subtitle: 'Software Engineer Intern',
-        image: "src/assets/iflytek.png",
+        image: iflytek,
         role: "Software Engineer Intern",
         time: "07/2021 - 08/2021",
         content: `
