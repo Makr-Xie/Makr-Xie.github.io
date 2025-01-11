@@ -1,9 +1,12 @@
+import uiuc from '../assets/UIUC.png';
+import zh1z from '../assets/zh1z.png';
+
 const timelineData = [
     {
         title: 'University of Illinois Urbana-Champaign',
         subtitle: 'BSc in Computer Science & Statistics',
         time: 'Aug 2022 - Present',
-        image:'src/assets/UIUC.png',
+        image: uiuc,
         content: `
             <p>I am a 3rd year Computer Science & Statistics student at the University of Illinois Urbana-Champaign (UIUC). 
             I'm passionate about using Machine Learning to make a positive impact on people's lives. 
@@ -46,7 +49,7 @@ const timelineData = [
     {
         title: 'Zhuhai No.1 High School (ZH1Z)',
         time: 'Aug 2019 - May 2022',
-        image:'src/assets/zh1z.png',
+        image: zh1z,
         content: `
             <p> I spent my high school years at ZH1Z. As a typical science student, 
             I chose physics, chemistry, and biology for my college entrance exams.

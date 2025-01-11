@@ -1,3 +1,7 @@
+import graphRag from '../assets/projectPics/GraphRag.jpg';
+import maskCat from '../assets/projectPics/mask-cat.jpg';
+import divorceRate from '../assets/projectPics/divorceRate.jpg';
+
 const projectData = [
     {
         title: 'Pokemon TCGP Card Animation',
@@ -8,7 +12,7 @@ const projectData = [
         title: 'GraphRAG Enhancement',
         time: '08/2024 - Ongoing',
         description: 'A research project enhancing RAG systems by integrating graph-based information retrieval, or namly GraphRAG.',
-        img: 'src/assets/projectPics/GraphRag.jpg'
+        img: graphRag
     },
     {
         title: 'Face Mask Detection',
@@ -16,7 +20,7 @@ const projectData = [
         description: 'Face mask detection based on YOLOv11',
         link: 'https://github.com/Makr-Xie/YOLOv11-Face-Mask-Detection',
         linkSubtitle: 'View on Github',
-        img: 'src/assets/projectPics/mask-cat.jpg'
+        img: maskCat
     },
     {
         title: 'All-In-One Course Schedular',
@@ -34,7 +38,7 @@ const projectData = [
         description: 'A multi-linear regression model that predicts the divorce rate per thousands of people.',
         link: 'https://github.com/Makr-Xie/MLR-DivorcePerdiction',
         linkSubtitle: 'View on Github',
-        img: 'src/assets/projectPics/divorceRate.jpg',
+        img: divorceRate
     }
 ];
 
