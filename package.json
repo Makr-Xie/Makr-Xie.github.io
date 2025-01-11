@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://makr-xie.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -17,6 +20,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/material": "^5.16.13",
     "exif-js": "^2.3.0",
+    "gh-pages": "^6.3.0",
     "piexifjs": "^1.0.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
