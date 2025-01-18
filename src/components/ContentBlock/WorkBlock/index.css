@@ -35,3 +35,13 @@
 .WorkBlock-time {
     margin-left: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .content-img {
+        height: 30px !important;
+    }
+
+    .contentblock-role {
+        font-size: 0.9em;
+    }
+}

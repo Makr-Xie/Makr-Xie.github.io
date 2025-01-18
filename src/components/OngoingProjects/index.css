@@ -75,3 +75,43 @@
     width: 95%;
     font-size: 17px;
 }
+
+@media screen and (max-width: 768px) {
+    .project-block {
+        width: 65%;
+    }
+
+    .project-block p {
+        font-size: 0.9rem;
+    }
+
+    .project-details {
+        width: 0;
+        height: 0;
+    }
+    .project-details h {
+        font-size: 1em;
+        position: absolute;
+        top: 20%; /* Half of the project-img height (150px) */
+        left: 50%;
+        transform: translateX(-50%);
+        color: #000;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .project-details p {
+        display: none;
+    }
+
+    .project-details span {
+        display: none;
+    }
+
+    .project-img {
+        width: 100%; /* Full width for image */
+        height: 100%; /* Adjust height as needed */
+    }
+}

@@ -32,3 +32,16 @@
     color: var(--highlight-color, #333); /* 当前页面颜色高亮 */
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+    .bar-containter a {
+        font-size: 1rem;
+        margin: 0;
+        margin-left: 10vw;
+    }
+
+    .bar-containter a.active {
+        font-size: 1.2rem;
+    }
+    
+}

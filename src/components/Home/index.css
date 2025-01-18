@@ -46,7 +46,7 @@
 
 .profile-text {
     font-size: clamp(16px, 7vw, 40px);
-    margin-top: 7vh;
+    margin-top: 50px;
     font-family: serif;
 }
 
@@ -106,4 +106,31 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.2s ease-out, visibility 0.2s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-text {
+        margin-top: 5vh;
+    }
+    
+    .paragraph {
+        margin-top: 2vh;
+    }
+
+    .profile-background {
+        height: 30vh;
+    }
+
+    .profile-picture {
+        width: 120px;
+        height: 120px;
+        transform: translate(-50%, 30%);
+        border-width: 1.5px;
+    }
+
+    .container-title {
+        font-size: 1.5rem;
+        width: 70%;
+        text-align: center;
+    }
 }

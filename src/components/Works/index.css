@@ -6,3 +6,10 @@
     flex-direction: column;
     margin-top: 3vh;
 }
+
+@media screen and (max-width: 768px) {
+    .work-item {
+        width: 65%;
+        margin-top: 2vh;
+    }
+}

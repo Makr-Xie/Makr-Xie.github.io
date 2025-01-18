@@ -1,0 +1,32 @@
+.profile-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .paragraph {
+        font-size: 0.9rem;
+        padding: 0 15px;
+    }
+    
+    .paragraph p {
+        margin: 0.3em 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .paragraph {
+        font-size: 0.8rem;
+    }
+    
+    .profile-container {
+        gap: 10px;
+    }
+}

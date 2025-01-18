@@ -31,3 +31,11 @@
     font-style: italic;
     font-size: 18px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .content-img {
+        height: 30px !important;
+    }
+    
+}
