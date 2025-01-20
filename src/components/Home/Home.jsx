@@ -7,6 +7,7 @@ import './index.css'
 import Footer from '../Footer/Footer';
 import OngoingProjects from '../OngoingProjects/OngoingProjects';
 import Sidebar from '../Sidebar/Sidebar';
+import StacksBlock from '../StacksBlock/StacksBlock';
 
 
 const Home = () => {
@@ -47,7 +48,8 @@ const Home = () => {
             <h1 className='container-title'>My Projects</h1>
             <OngoingProjects handleOnclick={handleOnclick}></OngoingProjects>
 
-            
+            <h1 className='container-title'>My Stacks</h1>
+            <StacksBlock></StacksBlock>
 
             <Footer></Footer>
         </div>
