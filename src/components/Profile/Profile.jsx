@@ -9,7 +9,7 @@ const Profile = () => {
       <p className='profile-text'>Mark Xie</p>
       <div className='paragraph'>
         <p>Hi, I am Mark.</p>
-        <p>a junior students in UIUC.</p>
+        <p>a junior CS students in UIUC.</p>
         <p>a future AI/ML researcher / engineer.</p>
         <p>an amateur photographer.</p>
         <p>a mid-laner with a peak at Master tier.</p>
