@@ -13,12 +13,14 @@ import JSIcon  from '../../assets/icons/javascript.svg?react';
 import K8sIcon  from '../../assets/icons/kubernetes.svg?react';
 import AwsIcon  from '../../assets/icons/aws.svg?react';
 import GcpIcon  from '../../assets/icons/gcp.svg?react';
+import Haskell from '../../assets/icons/haskell.svg?react';
 import './index.css';
 
 const stacks = [
     { name: 'Python', icon: <PythonIcon /> }, 
     { name: 'C/C++', icon: <CppIcon /> }, 
     { name: 'Java', icon: <JavaIcon /> },
+    { name: 'Haskell', icon: <Haskell /> },
     { name: 'JavaScript', icon: <JSIcon /> },
     { name: 'SQL', icon: <SqlIcon /> },
     
