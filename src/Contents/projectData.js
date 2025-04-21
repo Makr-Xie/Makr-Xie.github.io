@@ -4,13 +4,13 @@ import divorceRate from '../assets/projectPics/divorceRate.jpg';
 
 const projectData = [
     {
-        title: 'Pokemon TCGP Card Animation',
-        time: 'Planning, and about to start.',
-        description: 'Using ControlNet to generate an animation for each EX card in Pokemon TCGP.'
+        title: 'Nano GPT-2',
+        time: '4/2025',
+        description: 'An implementation of GPT-2 124M model using PyTorch, trained on the FineWeb-Edu dataset.',
     },
     {
         title: 'Taxonomy Enhanced GraphRAG',
-        time: '08/2024 - Ongoing',
+        time: '12/2024 - Ongoing',
         description: 'A research project enhancing RAG systems by integrating graph-based information retrieval, or namly GraphRAG.',
         img: graphRag
     },
