@@ -1,10 +1,11 @@
 {
   "basics": {
     "name": "Yixuan Xie",
-    "label": "undergraduate student",
+    "label": "Undergrad @ UIUC",
     "image": "",
     "email": "xie39@illinois.edu",
     "url": "https://Makr-Xie.github.io",
+    "summary": "I like playing with LLM with RL",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -33,13 +34,27 @@
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Matsuo Iwasawa Lab UTokyo",
+      "position": "Research Assistent",
+      // "url": "https://example.com",
+      "startDate": "2025-07-13",
+      // "endDate": "1955-01-01",
+      "summary": "I am honored to collaborate with Matsuo Lab, focusing on the research of LLM reasoning in medicine"
+    },
+    {
+      "name": "IBM-Illinois Discovery Accelerator Institute",
+      "position": "Research Assistent",
+      "startDate": "2025-05-15",
+      // "endDate": "1955-01-01",
+      "summary": "I am very fortunate to have Prof. Jiawei Han supervising my research, which currently focuses on LLMs and IE tasks."
+    },
+    {
+      "name": "DataLynn, New York",
+      "position": "Macine Learning Engineer Intern",
+      // "url": "https://example.com",
+      "startDate": "2024-05-21",
+      "endDate": "2024-08-15",
+      "summary": "I worked on VectorDB, RAG, and Agent system."
     }
   ],
   "awards": [
