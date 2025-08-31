@@ -33,10 +33,10 @@ Hi, this is Mark, nice to have you here!
 
 I am a senior computer science student at [University of Illinois Urbana-Champaign](https://illinois.edu/), where I am fortunate to be advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). I am working with the [IBM-Illinois Discovery Accelerator Institute](https://discoveryacceleratorinstitute.grainger.illinois.edu/) this summer. Meanwhile, I am also colaborating with [Matsuo Iwasawa Lab](https://weblab.t.u-tokyo.ac.jp/en/) at UTokyo.
 
-My research interests lie in **NLP**, **Reinforcement Learning**, and **Data mining**.
+My research interests lie in **Information Retrieval**, **LLM Argumentation**, and **Reinforcement Learning**.
 
-Feel free to connect with me via [email](xie39@illinois.edu), if you are interested in collborating with me or having a short coffee chat about anythings that sparks your interest.
+Feel free to connect with me via [email](xie39@illinois.edu), if you are interested in collborating with me or having a short chat about anythings that sparks your interest.
 
-Or even just to chat about pets, I am a **cat** person!
+I am a **cat** person!
 
 (The website is still under construction, please check back later!)
