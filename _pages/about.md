@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior CS student @ UIUC
+subtitle: CS Undergrad @ UIUC
 
 profile:
   align: right
