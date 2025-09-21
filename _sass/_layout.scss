@@ -6,6 +6,11 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  line-height: 1.6;
 
   h1,
   h2,
@@ -15,6 +20,11 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+}
+
+strong, b {
+  font-weight: 540 /* 800 */;
+  font-family: 'Titillium Web', Verdana, Helvetica, sans-serif;
 }
 
 body.fixed-top-nav {
