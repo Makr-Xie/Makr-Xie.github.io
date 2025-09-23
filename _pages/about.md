@@ -27,8 +27,8 @@ latest_posts:
 I am a fourth-year computer science undergrad at [University of Illinois Urbana-Champaign](https://illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). I am also collaborating with the [Matsuo Iwasawa Lab](https://weblab.t.u-tokyo.ac.jp/en/).
 
 My current research interests include:
-- augmenting LLMs with external knowledge; 
-- turning LLMs via RL.
+- augmenting LLMs with external knowledge sources; 
+- turning LLMs via reinforement learning.
 
 Email: xie39 [AT] illinois.edu
 
