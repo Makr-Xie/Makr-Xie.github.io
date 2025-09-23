@@ -30,7 +30,8 @@ My current research interests include:
 - augmenting LLMs with external knowledge; 
 - turning LLMs via RL.
 
-(The website is still under construction, please check back later!)
 Email: xie39 [AT] illinois.edu
 
 I am a **cat** person!
+
+(The website is still under construction, please check back later!)
