@@ -4,13 +4,14 @@ title: about
 permalink: /
 # subtitle: CS Undergrad @ UIUC
 # <a href="/assets/pdf/cv.pdf" target="_blank">CV</a>
+
 profile:
   align: right # options: left, right
   image: mypic.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: True # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
