@@ -34,5 +34,3 @@ My current research interests include:
 Email: xie39 [AT] illinois.edu, CV
 
 I am a **cat** person!
-
-(The website is still under construction, please check back later!)
