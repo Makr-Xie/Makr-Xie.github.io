@@ -33,6 +33,13 @@ My current research interests include:
 - augmenting LLMs with external knowledge sources; 
 - turning LLMs/Agents via reinforement learning.
 
-Email: xie39 [AT] illinois.edu, CV
+Email: xie39 [AT] illinois.edu
 
-I like singing and photography, and I'm more of a **cat** person!
+I like singing and photography, and I'm more of a **cat** person! 
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<!-- Calendly link widget end -->
+
+Feel free to reach out to me if you have any questions, want to discuss anything that sparks your interest, or <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/xuan-mark2524/30min'});return false;">schedule a coffee chat with me</a>!
