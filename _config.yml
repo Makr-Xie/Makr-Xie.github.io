@@ -54,7 +54,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 800px
+max_width: 950px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -313,6 +313,7 @@ filtered_bibtex_keywords:
     html,
     inspirehep_id,
     pdf,
+    suppress_year,
     poster,
     preview,
     selected,

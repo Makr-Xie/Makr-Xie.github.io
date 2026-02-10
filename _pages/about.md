@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: CS Undergrad @ UIUC
 # <a href="/assets/pdf/cv.pdf" target="_blank">CV</a>
@@ -24,22 +24,15 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hi, this is Mark! 
 
-Hi, nice to have you here! 
-
-I am Mark, a fourth-year computer science undergrad at [University of Illinois Urbana-Champaign](https://illinois.edu/), supervised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). I am also collaborating with the [Matsuo Iwasawa Lab](https://weblab.t.u-tokyo.ac.jp/en/).
+I am a senior CS Undergrad at [UIUC](https://siebelschool.illinois.edu/), privileged to be advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
 
 My current research interests include:
-- augmenting LLMs with external knowledge sources; 
-- turning LLMs/Agents via reinforement learning.
+- Augmenting LLMs with external knowledge sources; 
+- Turning LLMs/Agents via Reinforcement Learning.
 
 Email: xie39 [AT] illinois.edu
 
 I like singing and photography, and I'm more of a **cat** person! 
 
-<!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<!-- Calendly link widget end -->
-
-Feel free to reach out to me if you have any questions, want to discuss anything that sparks your interest, or <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/xuan-mark2524/30min'});return false;">schedule a coffee chat with me</a>!
