@@ -4,6 +4,7 @@ title: About
 permalink: /
 # subtitle: CS Undergrad @ UIUC
 # <a href="/assets/pdf/cv.pdf" target="_blank">CV</a>
+# bundle exec jekyll serve
 
 profile:
   align: right # options: left, right
@@ -32,7 +33,6 @@ My current research interests include:
 - Augmenting LLMs with external knowledge sources; 
 - Turning LLMs/Agents via Reinforcement Learning.
 
-Email: xie39 [AT] illinois.edu
+Feel free to reach me via <u>xie39[AT]illinois.edu</u> and for more information, please check my [CV](/assets/pdf/cv.pdf).
 
 I like singing and photography, and I'm more of a **cat** person! 
-
