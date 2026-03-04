@@ -30,9 +30,11 @@ Hi, this is Mark!
 I am a senior CS Undergrad at [UIUC](https://siebelschool.illinois.edu/), privileged to be advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
 
 My current research interests include:
-- Augmenting LLMs with external knowledge sources; 
-- Turning LLMs/Agents via Reinforcement Learning.
+- Augmenting LLMs/VLMs with external knowledge sources; 
+- Turning agents via Reinforcement Learning.
 
 Feel free to reach me via <u>xie39[AT]illinois.edu</u> and for more information, please check my [CV](/assets/pdf/cv.pdf).
+
+I am currently looking for a summer internship for 2026, in topics related to RL, multi-modal RAG, or search agents. Please feel free to reach me if you have any openings.
 
 I like singing and photography, and I'm more of a **cat** person! 
