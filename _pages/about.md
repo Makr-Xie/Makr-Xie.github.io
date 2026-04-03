@@ -27,7 +27,7 @@ latest_posts:
 ---
 Hi, this is Mark! 
 
-I am a senior CS Undergrad at [UIUC](https://siebelschool.illinois.edu/), privileged to be advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
+I am an incoming MSCS student at [UIUC](https://siebelschool.illinois.edu/), privileged to be advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
 
 My current research interests include:
 - Augmenting LLMs/VLMs with external knowledge sources; 
