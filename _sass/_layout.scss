@@ -7,7 +7,7 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
   font-family: 'EB Garamond', 'Adobe Garamond Pro', Garamond, Georgia, serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   letter-spacing: 0.7px;
   line-height: 1.6;
@@ -24,6 +24,7 @@ body {
 
 strong,
 b {
+  color: var(--global-theme-color);
   font-weight: 540
     /* 800 */
   ;
@@ -42,6 +43,111 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+}
+
+.about-page {
+  .about-header {
+    margin-bottom: 1.25rem;
+  }
+
+  .about-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 3rem;
+  }
+
+  .about-main {
+    min-width: 0;
+  }
+
+  .about-content {
+    min-width: 0;
+  }
+
+  .about-content > :first-child {
+    margin-top: 0;
+  }
+
+  .about-main .desc {
+    margin-top: 0;
+  }
+
+  .about-sidebar {
+    min-width: 0;
+  }
+
+  .about-sidebar .profile {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-sidebar .more-info {
+    margin-top: 1rem;
+    font-family: inherit;
+    line-height: 1.5;
+  }
+
+  .about-sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-sidebar-list li + li {
+    margin-top: 0.75rem;
+  }
+
+  .about-sidebar-links {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .about-sidebar-divider {
+    color: var(--global-text-color-light);
+  }
+
+  .about-sidebar-links .ai-google-scholar {
+    font-size: 1.05rem;
+    vertical-align: -0.08em;
+  }
+
+  .about-sidebar-list span {
+    display: block;
+    margin-bottom: 0.1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-page {
+    .about-intro {
+      grid-template-columns: minmax(0, 1fr) minmax(220px, 240px);
+      gap: 2.5rem;
+    }
+
+    .about-sidebar {
+      border-left: 1px solid var(--global-divider-color);
+      padding-left: 2rem;
+    }
+
+    .about-intro.sidebar-left {
+      grid-template-columns: minmax(220px, 240px) minmax(0, 1fr);
+    }
+
+    .about-intro.sidebar-left .about-sidebar {
+      order: -1;
+      border-left: 0;
+      border-right: 1px solid var(--global-divider-color);
+      padding-left: 0;
+      padding-right: 2rem;
+    }
+  }
 }
 
 // Profile

@@ -2,43 +2,54 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        {{ site.first_name }} {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+  <article class="about-page">
+    <header class="post-header about-header">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          {{ site.first_name }} {{ site.middle_name }}
+          {{ site.last_name }}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+    </header>
 
-  <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+      <div class="about-intro {% if page.profile.align == 'left' %}sidebar-left{% endif %}">
+        <div class="about-main">
+          {% if page.subtitle %}
+            <p class="desc">{{ page.subtitle }}</p>
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.25}}px, (min-width: 576px)
-      25vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+          <div class="about-content clearfix">{{ content }}</div>
+        </div>
 
-    <div class="clearfix">{{ content }}</div>
+        <aside class="about-sidebar">
+          <div class="profile">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{ site.max_width }}) 240px, (min-width: 576px) 32vw, 80vw{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            {% endif %}
+            {% if page.profile.more_info %}
+              <div class="more-info">{{ page.profile.more_info }}</div>
+            {% endif %}
+          </div>
+        </aside>
+      </div>
+    {% else %}
+      {% if page.subtitle %}
+        <p class="desc">{{ page.subtitle }}</p>
+      {% endif %}
+      <div class="about-content clearfix">{{ content }}</div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

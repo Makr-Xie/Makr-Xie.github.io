@@ -11,6 +11,17 @@ profile:
   image: mypic.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
+    <ul class="about-sidebar-list">
+      <li><span>Email</span> xie39[AT]illinois.edu</li>
+      <li class="about-sidebar-links">
+        <a href="/assets/pdf/cv.pdf">CV</a>
+        <span class="about-sidebar-divider" aria-hidden="true">｜</span>
+        <a href="https://scholar.google.com/citations?user=p6RrEXwAAAAJ&hl=en" title="Google Scholar">
+          <i class="ai ai-google-scholar" aria-hidden="true"></i>
+          <span class="sr-only">Google Scholar</span>
+        </a>
+      </li>
+    </ul>
 
 selected_papers: True # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -27,14 +38,12 @@ latest_posts:
 ---
 Hi, this is Mark! 
 
-I am an incoming MSCS student at [UIUC](https://siebelschool.illinois.edu/), privileged to be advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
+I am an incoming MSCS student at [University of Illinois, Urbana Champaign](https://siebelschool.illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
+
+Before that, I did my undergraduate at UIUC (2022--2026), graduating with a Highest Honor B.S in Computer Science and Statistics.
 
 My current research interests include:
-- Augmenting LLMs/VLMs with external knowledge sources; 
+- Augmenting LLMs/VLMs with external knowledge; 
 - Turning agents via Reinforcement Learning.
 
-Feel free to reach me via <u>xie39[AT]illinois.edu</u> and for more information, please check my [CV](/assets/pdf/cv.pdf).
-
-I am currently looking for a summer internship for 2026, in topics related to RL, multi-modal RAG, or search agents. Please feel free to reach me if you have any openings.
-
-I like singing and photography, and I'm more of a **cat** person! 
+I am currently looking for a summer internship for 2026
