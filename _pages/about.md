@@ -20,6 +20,16 @@ profile:
           <i class="ai ai-google-scholar" aria-hidden="true"></i>
           <span class="sr-only">Google Scholar</span>
         </a>
+        <span class="about-sidebar-divider" aria-hidden="true">｜</span>
+        <a href="https://www.linkedin.com/in/yixuan-xie-bb999829b/" title="LinkedIn">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          <span class="sr-only">LinkedIn</span>
+        </a>
+        <span class="about-sidebar-divider" aria-hidden="true">｜</span>
+        <a href="https://github.com/Makr-Xie" title="GitHub">
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
+          <span class="sr-only">GitHub</span>
+        </a>
       </li>
     </ul>
 
