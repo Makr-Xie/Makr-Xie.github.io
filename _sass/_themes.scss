@@ -43,6 +43,12 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  // Subtle UI tokens (Claude-style soft palette)
+  --global-hr-color: rgba(0, 0, 0, 0.06);
+  --global-image-border: 1px solid rgba(0, 0, 0, 0.08);
+  --global-abbr-bg: rgba(69, 105, 137, 0.07);
+  --global-abbr-text: #2c4a66;
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -113,6 +119,12 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+  // Subtle UI tokens (dark-mode counterparts)
+  --global-hr-color: rgba(255, 255, 255, 0.08);
+  --global-image-border: 1px solid rgba(255, 255, 255, 0.08);
+  --global-abbr-bg: rgba(127, 168, 202, 0.10);
+  --global-abbr-text: #b5d0e6;
 
   .only-light {
     display: none;

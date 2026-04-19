@@ -20,7 +20,9 @@ strong {
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  border: 0;
+  border-top: 1px solid var(--global-hr-color);
+  margin: 2.5rem 0;
 }
 
 table {
@@ -216,6 +218,13 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-left {
   margin-right: 1rem;
+}
+
+// Soften MDB Material shadows on portrait & paper previews
+.about-sidebar .profile img.z-depth-1,
+.publications .preview.z-depth-1 {
+  box-shadow: none !important;
+  border: var(--global-image-border);
 }
 
 @media (min-width: 576px) {
@@ -738,12 +747,13 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          background-color: #0f0f3e;
+          background-color: var(--global-abbr-bg);
           margin-bottom: 0px;
-          color: white !important;
+          color: var(--global-abbr-text) !important;
           font-size: 0.75rem;
+          font-weight: 500;
           padding: 3px 12px;
-          border-radius: 0px;
+          border-radius: 4px;
           min-width: 80px;
           text-align: center;
 
@@ -787,8 +797,10 @@ footer.sticky-bottom {
         >em {
           font-weight: bold;
           font-style: normal;
-          text-decoration: underline solid black 1px;
-          text-underline-offset: 2px;
+          text-decoration: underline;
+          text-decoration-color: var(--global-theme-color);
+          text-decoration-thickness: 1px;
+          text-underline-offset: 3px;
         }
 
         >span.more-authors {

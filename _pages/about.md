@@ -37,7 +37,7 @@ selected_papers: True # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -46,14 +46,14 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hi, this is Mark! 
+Hi, this is Mark!
 
-I am an incoming MSCS student at [University of Illinois, Urbana Champaign](https://siebelschool.illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/). 
+I am an incoming MSCS student at [University of Illinois, Urbana Champaign](https://siebelschool.illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/).
 
-Before that, I did my undergraduate at UIUC (2022--2026), graduating with a Highest Honor B.S in Computer Science and Statistics.
+Before that, I did my undergraduate at UIUC (2022--2026), earning a B.S. in Computer Science and Statistics with Highest Honors.
 
 My current research interests include:
-- Augmenting LLMs/VLMs with external knowledge; 
-- Turning agents via Reinforcement Learning.
+- Augmenting LLMs/VLMs with external knowledge;
+- Tuning agents via Reinforcement Learning.
 
-I am currently looking for a summer internship for 2026
+I am open to summer or fall 2026 internships in **RAG / Agentic RL** — feel free to reach out.
