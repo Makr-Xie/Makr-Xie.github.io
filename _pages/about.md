@@ -50,7 +50,7 @@ Hi, this is Mark!
 
 I am an incoming MSCS student at [University of Illinois, Urbana Champaign](https://siebelschool.illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/).
 
-Before that, I did my undergraduate at UIUC (2022--2026), earning a B.S. in Computer Science and Statistics with Highest Honors.
+Before that, I did my undergrad at UIUC (2022--2026), earning a B.S. in Computer Science and Statistics with Highest Honors.
 
 My current research interests include:
 - Augmenting LLMs/VLMs with external knowledge;
