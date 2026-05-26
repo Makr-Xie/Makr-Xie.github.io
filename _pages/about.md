@@ -53,7 +53,8 @@ I am an incoming MSCS student at [University of Illinois, Urbana Champaign](http
 Before that, I did my undergrad at UIUC (2022--2026), earning a B.S. in Computer Science and Statistics with Highest Honors.
 
 My current research interests include:
-- Augmenting LLMs/VLMs with external knowledge;
-- Tuning agents via Reinforcement Learning.
+- Retrieval-augmented generation (RAG);
+- Search agents and agent memory;
+- Reinforcement learning for agentic reasoning.
 
-I am open to summer or fall 2026 internships in **RAG / Agentic RL** — feel free to reach out.
+I am open to fall 2026 internships in **RAG / Search Agents/ Agentic RL** — feel free to reach out.

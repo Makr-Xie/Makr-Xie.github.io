@@ -309,6 +309,7 @@ filtered_bibtex_keywords:
     google_scholar_id,
     html,
     inspirehep_id,
+    model,
     pdf,
     suppress_year,
     poster,

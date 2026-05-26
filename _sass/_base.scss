@@ -829,6 +829,11 @@ footer.sticky-bottom {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
+
+        }
+
+        a.btn-arxiv {
+          text-transform: none;
         }
 
         a.award.btn {
