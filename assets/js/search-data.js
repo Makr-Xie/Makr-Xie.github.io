@@ -41,6 +41,9 @@ ninja.data = [{
       },{id: "news-continuing-at-uiuc-for-mscs-advised-by-prof-jiawei-han",
           title: 'Continuing at UIUC for MSCS, advised by Prof. Jiawei Han.',
           description: "",
+          section: "News",},{id: "news-started-as-a-summer-ra-on-memory-for-search-agents-in-collaboration-with-researchers-at-amazon",
+          title: 'Started as a summer RA on memory for search agents, in collaboration with...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
