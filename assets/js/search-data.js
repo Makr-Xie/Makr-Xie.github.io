@@ -38,8 +38,8 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-continuing-at-uiuc-for-mscs-advised-by-prof-jiawei-han",
-          title: 'Continuing at UIUC for MSCS, advised by Prof. Jiawei Han.',
+      },{id: "news-graduated-from-uiuc-in-cs-amp-amp-statistics-continuing-for-mscs-with-prof-jiawei-han",
+          title: 'Graduated from UIUC in CS &amp;amp;amp; Statistics, continuing for MSCS with Prof. Jiawei...',
           description: "",
           section: "News",},{id: "news-started-as-a-summer-ra-on-memory-for-search-agents-in-collaboration-with-researchers-at-amazon",
           title: 'Started as a summer RA on memory for search agents, in collaboration with...',
