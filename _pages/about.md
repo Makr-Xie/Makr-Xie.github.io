@@ -57,4 +57,4 @@ My current research interests include:
 - Search agents and agent memory;
 - Reinforcement learning for agentic reasoning.
 
-I am open to fall 2026 internships in **RAG / Search Agents/ Agentic RL** — feel free to reach out.
+I am open to fall 2026 internships in **RAG / Search Agents** — feel free to reach out.
