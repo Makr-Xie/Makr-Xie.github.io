@@ -48,7 +48,7 @@ latest_posts:
 ---
 Hi, this is Mark!
 
-I am an incoming MSCS student at [University of Illinois, Urbana Champaign](https://siebelschool.illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/).
+I am a MSCS student at [University of Illinois, Urbana Champaign](https://siebelschool.illinois.edu/), advised by Professor [Jiawei Han](https://hanj.cs.illinois.edu/).
 
 Before that, I did my undergrad at UIUC (2022--2026), earning a B.S. in Computer Science and Statistics with Highest Honors.
 
@@ -57,4 +57,4 @@ My current research interests include:
 - Search agents and agent memory;
 - Reinforcement learning for agentic reasoning.
 
-I am open to fall 2026 internships in **RAG / Search Agents** — feel free to reach out.
+I am open to Fall 2026 internships in **RAG / Search Agents** — feel free to reach out.
