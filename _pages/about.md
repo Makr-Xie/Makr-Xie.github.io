@@ -53,8 +53,8 @@ I am a MSCS student at [University of Illinois, Urbana Champaign](https://siebel
 Before that, I did my undergrad at UIUC (2022--2026), earning a B.S. in Computer Science and Statistics with Highest Honors.
 
 My current research interests include:
+- Agent memory;
+- Synthetic data for Search Agents;
 - Retrieval-augmented generation (RAG);
-- Search agents and agent memory;
-- Reinforcement learning for agentic reasoning.
 
-I am open to Fall 2026 internships in **RAG / Search Agents** — feel free to reach out.
+
