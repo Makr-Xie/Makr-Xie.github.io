@@ -38,11 +38,17 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-graduated-from-uiuc-in-cs-amp-amp-statistics-continuing-for-mscs-with-prof-jiawei-han",
-          title: 'Graduated from UIUC in CS &amp;amp;amp; Statistics, continuing for MSCS with Prof. Jiawei...',
+      },{id: "news-graduated-from-uiuc-with-a-b-s-in-cs-amp-amp-stats-continuing-my-m-s-in-cs-with-prof-jiawei-han",
+          title: 'Graduated from UIUC with a B.S in CS &amp;amp;amp; Stats; continuing my M.S....',
           description: "",
           section: "News",},{id: "news-started-as-a-summer-ra-on-memory-for-search-agents-in-collaboration-with-researchers-at-amazon",
           title: 'Started as a summer RA on memory for search agents, in collaboration with...',
+          description: "",
+          section: "News",},{id: "news-casemem-and-pyrag-submitted-to-iclr-2027",
+          title: 'CaseMem and PyRAG submitted to ICLR 2027.',
+          description: "",
+          section: "News",},{id: "news-memcomposer-submitted-to-the-oct-2026-cycle-of-acl-rolling-review",
+          title: 'MemComposer submitted to the Oct. 2026 cycle of ACL Rolling Review.',
           description: "",
           section: "News",},{
         id: 'social-email',
