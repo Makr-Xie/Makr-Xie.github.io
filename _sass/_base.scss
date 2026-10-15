@@ -25,6 +25,10 @@ hr {
   margin: 2.5rem 0;
 }
 
+h2 + hr {
+  margin-top: 0.5rem;
+}
+
 table {
 
   td,
@@ -1467,4 +1471,8 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+.textsc {
+  font-variant: small-caps;
 }
